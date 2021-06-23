@@ -1,4 +1,6 @@
-# <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/></a>&nbsp 
+# <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=Tableau&logoColor=white"/>
+# <img src="./image/tableau.svg"> Tableau
+
 
 ### 1. inflearn 강의
 - 1차: 5/22 ~ 5/26
