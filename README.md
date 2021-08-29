@@ -16,5 +16,5 @@ Tableau 관련 inflearn 강의를 통해 전반적인 활용법 및 고객 분�
 <img src="./image/tableau_customer_intro.PNG" width="300" height="130">
 
 ## 2. [책] 태블로 굿모닝 굿애프터눈
-- 6/1 ~
+- 6/1 ~ 6/10, 8/29 ~ 
 <img src="./image/tableau_goodmorning.png" width="300" height="350">
