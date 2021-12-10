@@ -1,15 +1,15 @@
 # Day6 LOD & Tabe Calculation## 6-0. 기초 개념- LOD: 세부수준 계산식
 	1. FIXED
 		- 지정 변수로 수준 고정하고 계산
+		- ```Tableau
+			# 첫 구매시점 (고객당)
+			{FIXED [고객명]: MIN([주문 일자]}
+		
+	   	  ```
 	2. EXCLUDE
 		- 지정 변수의 수준 제외하고 계산
 	3. INCLUDE		- 차원/수준이 행/열에는 포함이 안되어있지만(view 수준), 지정 변수 포함하고 계산
 
-	- ex. ```Tableau
-		# 첫 구매시점 (고객당)
-		{FIXED [고객명]: MIN([주문 일자]}
-		
-	      ```
 	- FIXED vs INCLUDE
 		- fixed는 지정 변수만 고려, include는 연관된 세부 수준까지 고려
 		- ex. 각 함수에 주문id를 지정
@@ -77,8 +77,7 @@
 		{ FIXED [고객번호]: 
 				MIN(
 					IIF([고객별 최초 구매일] < [주문 일자], [주문 일자], NULL)
-				)
-		}
+				)}
 	  ```
 	
 - 고객별 재구매 경과기간 - 분기 기준 (LOD)
